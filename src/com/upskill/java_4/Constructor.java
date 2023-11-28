@@ -33,7 +33,7 @@ public class Constructor {
 		Constructor obj2 = new Constructor(30);
 		System.out.println(obj2.Studentage);
 		
-		Constructor obj3 = new Constructor("Tanha",20);
+		Constructor obj3 = new Constructor("Tanha ",20);
 		System.out.println(obj3.StudentName + obj3.Studentage);
 		System.out.println(obj3.Studentage);
 		

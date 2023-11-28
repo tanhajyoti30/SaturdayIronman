@@ -1,6 +1,5 @@
 package com.upskill.assignment4;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -16,10 +15,10 @@ public class anagram {
 		char [] same = string1.toCharArray();
 		char [] dup = string2.toCharArray();
 		
-//		if (string1.length() != string2.length()) {
-//			System.out.println("Not anagram");
-//			return false;
-//		}
+		if (same.length != dup.length) {
+		System.out.println("Not anagram");
+			return false;
+	}
 		
 		Arrays.sort(same);
 		Arrays.sort(dup);
